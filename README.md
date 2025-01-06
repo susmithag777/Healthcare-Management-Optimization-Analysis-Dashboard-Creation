@@ -2,20 +2,23 @@
 
 <h1>Project Background</h1>
 The Healthcare Management Optimization project leverages data from 2019 to May 2024 across multiple hospitals to provide critical insights into hospital operations, patient care, and financial management. This project aims to assist hospital administrators and healthcare providers in making data-driven decisions to improve efficiency, optimize resources, and enhance patient care.
-
+<br/>
 With the rising demand for urgent, elective, and emergency care, hospitals face challenges in optimizing patient stay durations, managing billing practices, and ensuring efficient allocation of resources such as blood supply and medical staff. The dataset used in this project provides a comprehensive view of hospital operations, including patient demographics, hospital stay durations, medical conditions, insurance billing, and doctor performance across various facilities.
 
 <h3>Key insights and recommendations are provided across the following areas:</h3>
-Patient Stay Duration: Evaluation of patient stay lengths across hospitals, aimed at improving capacity management for both short- and long-term care.
-Billing Practices by Insurance Providers: Analysis of billing discrepancies and trends across different insurance providers, helping to identify areas for cost optimization.
-Blood Supply Management: Insights into universal blood donor and receiver distributions to ensure timely and efficient transfusions.
-Doctor Performance: Evaluation of doctors based on the number of patients treated and their associated billing, offering insights into workload and revenue contribution.
-Medication Trends: An analysis of the most commonly prescribed medications for various medical conditions, guiding pharmacy inventory management.
+1. Patient Stay Duration: Evaluation of patient stay lengths across hospitals, aimed at improving capacity management for both short- and long-term care.
+2. Billing Practices by Insurance Providers: Analysis of billing discrepancies and trends across different insurance providers, helping to identify areas for cost optimization.
+3. Blood Supply Management: Insights into universal blood donor and receiver distributions to ensure timely and efficient transfusions.
+4. Doctor Performance: Evaluation of doctors based on the number of patients treated and their associated billing, offering insights into workload and revenue contribution.
+5. Medication Trends: An analysis of the most commonly prescribed medications for various medical conditions, guiding pharmacy inventory management.
 
 <h3>Tools Used</h3>
-An interactive Power BI dashboard accompanies this project to provide a dynamic and visual exploration of the findings here .
+An interactive Power BI dashboard accompanies this project to provide a dynamic and visual exploration of the findings here.
+
 Excel is used to inspect, clean, and prepare the data for analysis, ensuring accurate and actionable insights can be found here.
+
 The SQL queries regarding various business questions and data preparation for the Tableau dashboard can be found here.
+
 By harnessing this data, healthcare providers can address key operational challenges, reduce costs, and improve the overall quality of patient care.
 
 <h3>Dataset</h3>
@@ -68,6 +71,7 @@ Paracetamol and Ibuprofen are widely prescribed for pain and inflammation, while
 
 <img width="466" alt="image" src="https://github.com/user-attachments/assets/0f45007f-6ddc-4e01-90f4-aa042b8a5c1f" />
 
+
 <img width="315" alt="image" src="https://github.com/user-attachments/assets/4bf9aca6-95fd-4377-8f10-2d8fa80fa5e6" />
 
 
@@ -83,6 +87,40 @@ A stored procedure, Blood_Matcher, was created to prioritize matching donors and
 
 <img width="416" alt="image" src="https://github.com/user-attachments/assets/9b25c28f-e068-4480-8cd3-959ca11e4cfe" />
 
+
 <img width="409" alt="image" src="https://github.com/user-attachments/assets/eba2b716-ea2a-4cd3-858c-a7ab43d554ac" />
 
+
 <img width="419" alt="image" src="https://github.com/user-attachments/assets/c6c31318-cbfb-4e52-9234-df181ca2e6fd" />
+
+
+<img width="468" alt="image" src="https://github.com/user-attachments/assets/ab0b1bd5-8c27-4835-b7c6-027201ad660a" />
+
+<h2>Recommendations:</h2>
+With the majority of patients aged 30-49 years contributing significantly to hospital revenue, target preventive care initiatives and resource allocation for this age group to enhance patient outcomes and reduce long-term healthcare costs.
+
+Prioritize preventive care for high-billing conditions like obesity and diabetes, focusing on early intervention and management to reduce the need for costly treatments later on.
+
+Despite the balance of O- universal donors and AB+ universal receivers, enhance blood bank management by optimizing cross-hospital donor-matching systems to ensure timely and efficient transfusions during emergencies.
+
+Recognize and incentivize top-performing doctors such as Michael Smith and John Smith, who generate substantial revenue through high-risk and follow-up patients. Consider offering incentives and expanding their services to increase patient retention and maximize revenue.
+
+Investigate the decline in total billing in 2024 and address operational inefficiencies or external factors that may have impacted hospital revenue. Adjust financial strategies for the remainder of the year to help recapture potential lost revenue.
+
+To manage high medication demand for chronic conditions like Arthritis, Diabetes, and Hypertension, optimize pharmacy inventory by ensuring a steady supply of key medications, such as Aspirin, Paracetamol, and Lipitor, while minimizing costs through bulk purchasing or supplier negotiations.
+
+Leverage historical data to optimize bed allocation, balancing resources between short- and long-term stays. This will ensure that hospitals can handle both urgent and elective admissions efficiently without overextending resources.
+
+Strengthen relationships with key insurance providers like Cigna and Medicare to ensure steady patient admissions and maintain financial stability. Collaborating with these insurers can help streamline billing practices and reduce discrepancies.
+
+Maintain an optimal inventory of high-demand medications like Aspirin and Paracetamol to ensure consistent pharmaceutical management. Regular audits of inventory can minimize shortages and prevent overstocking, while supplier negotiations can help manage costs.
+
+<h2>Assumptions and Caveats:</h2>
+Throughout the analysis, several assumptions were made to address data challenges and ensure the results remained accurate. The following assumptions and caveats are noted below:
+
+The data analyzed includes records only up until May 2024, meaning that trends observed, such as total billing amounts and patient admissions, may change by the end of the year as new data becomes available.
+
+Duplicate records for patient billing were identified and removed to ensure the accuracy of the financial analysis.
+
+Negative and positive billing amounts were categorized into a new column titled "Type of Bill" to differentiate between refunds and normal transactions. Negative amounts were classified as Refund, and positive amounts were classified as Normal.
+
