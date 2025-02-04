@@ -28,19 +28,27 @@ This project utilizes a dataset of 55501 patient records from multiple hospitals
 Here the Tableau dashboard is explained in detail, and the SQL business question answers are thoroughly covered.
 
 <h3>Financial & Insurance Dashboard</h3>
-The total billing amount reached $1.40B across all hospitals, with significant growth in 2020 before seeing a dip in 2024. However, the data only reflects the numbers up to May 2024, so there is potential for an increase by the end of the year. This downward trend highlights the dynamic nature of healthcare demands and the impact of external factors on revenue, possibly due to operational adjustments post-pandemic.<br/>
-The average billing per patient is $25.54K, with minor variations between insurance providers. Medicare leads with an average billing of $25.63K, while UnitedHealthcare follows closely at $25.41K, suggesting consistent pricing strategies across the board.<br/>
-Patients in the 30-39 age group contributed the highest total billing ($208.17M), followed by those aged 40-49 with $204.83M, indicating that middle-aged patients are a key demographic for healthcare spending. This also suggests that individuals in these age groups may be more prone to health issues, necessitating higher healthcare expenditures.<br/>
-Admissions are evenly distributed among Elective (33.70%), Urgent (33.42%), and Emergency (32.88%) cases, demonstrating that all patient care types are significant contributors to overall billing.
+The total billing amount reached <b>$1.40B</b> across all hospitals, with significant growth in 2020 before seeing a dip in 2024. However, the data only reflects the numbers up to May 2024, so there is potential for an increase by the end of the year. This downward trend highlights the dynamic nature of healthcare demands and the impact of external factors on revenue, possibly due to operational adjustments post-pandemic.<br/>
 
+The average billing per patient is <b>$25.54K</b>, with minor variations between insurance providers. <b>Medicare</b> leads with an average billing of <b>$25.63K</b>, while <b>UnitedHealthcare<b> follows closely at <b>$25.41K</b>, suggesting consistent pricing strategies across the board.<br/>
+
+Patients in the <b>30-39</b> age group contributed the highest total billing <b>($208.17M)</b>, followed by those aged <b>40-49</b> with <b>$204.83M</b>, indicating that middle-aged patients are a key demographic for healthcare spending. This also suggests that individuals in these age groups may be more prone to health issues, necessitating higher healthcare expenditures.<br/>
+
+Admissions are evenly distributed among <b>Elective (33.70%), Urgent (33.42%)</b>, and <b>Emergency (32.88%)</b> cases, demonstrating that all patient care types are significant contributors to overall billing.
+
+<br/>
 
 <img width="608" alt="image" src="https://github.com/user-attachments/assets/faa14d26-4025-445e-84fb-68120d951c01" />
 
 <h3>Patient Insight Dashboard</h3>
 Low-risk patients contribute the most to total billing ($467M), while high-risk patients account for $158M. This indicates that routine monitoring and care for low-risk patients is a critical revenue stream, as they may require frequent checkups and follow-up appointments, even if their conditions are not life-threatening.<br/>
+
 The number of patient admissions peaked in 2020 at 3,818, followed by a gradual decline. The significant decrease in 2024 can be attributed to external factors like healthcare policies or global events. However, as the data only includes records up to May 2024, there is potential for admission rates to increase by the end of the year.<br/>
+
 The gender distribution is nearly balanced, with 50.02% male and 49.98% female patients, indicating equitable access to healthcare services across genders.<br/>
+
 Patients aged 50-59 years and 30-39 years have the highest admission rates, representing critical age groups for hospital resource planning and patient care management. These groups may require urgent care more frequently, highlighting the need for hospitals to prioritize resource availability for these patients.
+<br/>
 
 
 <img width="604" alt="image" src="https://github.com/user-attachments/assets/525896c9-d137-4589-9826-bc3a42a07932" />
@@ -48,8 +56,10 @@ Patients aged 50-59 years and 30-39 years have the highest admission rates, repr
 
 <h3>Hospital & Doctor Dashboard</h3>
 LLC Smith hospital leads in overall billing, contributing $423,591, along with the highest elective admissions. Ltd Smith hospital follows closely behind, showcasing their efficiency and revenue generation capabilities. Some refund amounts were also noted, indicating billing adjustments, possibly due to insurance claims or patient refunds. <br/>
+
 Michael Smith is the top-performing doctor, generating $201K in billings for high-risk patients. John Smith and Robert Smith significantly contribute with $275K and $186K, respectively. Interestingly, low-risk patients who require discharge and follow-up appointments contribute a substantial portion of the total billing. This suggests that even though these patients are at lower risk, maintaining contact and follow-up with their doctors generates a considerable revenue stream. <br/>
-The average length of stay varies between doctors, with Jessica Johnson having the shortest average stay of 19 days for elective cases, while William Johnson averages 26 days, highlighting differences in case complexity and doctor efficiency. Elective cases tend to have shorter average stays compared to emergency and urgent cases, which underscores the need for hospitals to adopt tailored resource management strategies based on admission type.
+
+The average length of stay varies between doctors, with Jessica Johnson having the shortest average stay of 19 days for elective cases, while William Johnson averages 26 days, highlighting differences in case complexity and doctor efficiency. Elective cases tend to have shorter average stays compared to emergency and urgent cases, which underscores the need for hospitals to adopt tailored resource management strategies based on admission type. <br/>
 
 
 <img width="610" alt="image" src="https://github.com/user-attachments/assets/edac2c7d-ea39-4631-9807-368f9219293b" />
