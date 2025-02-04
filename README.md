@@ -2,22 +2,21 @@
 
 <h1>Project Background</h1>
 The Healthcare Management Optimization project leverages data from 2019 to May 2024 across multiple hospitals to provide critical insights into hospital operations, patient care, and financial management. This project aims to assist hospital administrators and healthcare providers in making data-driven decisions to improve efficiency, optimize resources, and enhance patient care.
-<br/>
-<br/>
+<br>
 With the rising demand for urgent, elective, and emergency care, hospitals face challenges in optimizing patient stay durations, managing billing practices, and ensuring efficient allocation of resources such as blood supply and medical staff. The dataset used in this project provides a comprehensive view of hospital operations, including patient demographics, hospital stay durations, medical conditions, insurance billing, and doctor performance across various facilities.
-
+<br>
 <h3>Key insights and recommendations are provided across the following areas:</h3>
-1. Patient Stay Duration: Evaluation of patient stay lengths across hospitals, aimed at improving capacity management for both short- and long-term care.<br/>
-2. Billing Practices by Insurance Providers: Analysis of billing discrepancies and trends across different insurance providers, helping to identify areas for cost optimization.<br/>
-3. Blood Supply Management: Insights into universal blood donor and receiver distributions to ensure timely and efficient transfusions.<br/>
-4. Doctor Performance: Evaluation of doctors based on the number of patients treated and their associated billing, offering insights into workload and revenue contribution.<br/>
+1. Patient Stay Duration: Evaluation of patient stay lengths across hospitals, aimed at improving capacity management for both short- and long-term care.<br>
+2. Billing Practices by Insurance Providers: Analysis of billing discrepancies and trends across different insurance providers, helping to identify areas for cost optimization.<br>
+3. Blood Supply Management: Insights into universal blood donor and receiver distributions to ensure timely and efficient transfusions.<br>
+4. Doctor Performance: Evaluation of doctors based on the number of patients treated and their associated billing, offering insights into workload and revenue contribution.<br>
 5. Medication Trends: An analysis of the most commonly prescribed medications for various medical conditions, guiding pharmacy inventory management.
-<br/>
+<br>
 <h3>Tools Used</h3>
-1. An interactive Power BI dashboard accompanies this project to provide a dynamic and visual exploration.<br/>
-2. Excel is used to inspect, clean, and prepare the data for analysis, ensuring accurate and actionable insights.<br/>
-3.The SQL queries regarding various business questions and data preparation for the Power BI dashboard.<br/>
-By harnessing this data, healthcare providers can address key operational challenges, reduce costs, and improve the overall quality of patient care.<br/>
+1. An interactive Power BI dashboard accompanies this project to provide a dynamic and visual exploration.<br>
+2. Excel is used to inspect, clean, and prepare the data for analysis, ensuring accurate and actionable insights.<br>
+3.The SQL queries regarding various business questions and data preparation for the Power BI dashboard.<br>
+By harnessing this data, healthcare providers can address key operational challenges, reduce costs, and improve the overall quality of patient care.<br>
 
 <h3>Dataset</h3>
 This project utilizes a dataset of 55501 patient records from multiple hospitals, highlighting key metrics such as hospital stay duration, billing amounts, insurance providers, and medical conditions.
@@ -28,38 +27,30 @@ This project utilizes a dataset of 55501 patient records from multiple hospitals
 Here the Tableau dashboard is explained in detail, and the SQL business question answers are thoroughly covered.
 
 <h3>Financial & Insurance Dashboard</h3>
-The total billing amount reached <b>$1.40B</b> across all hospitals, with significant growth in 2020 before seeing a dip in 2024. However, the data only reflects the numbers up to May 2024, so there is potential for an increase by the end of the year. This downward trend highlights the dynamic nature of healthcare demands and the impact of external factors on revenue, possibly due to operational adjustments post-pandemic.<br/>
-
-The average billing per patient is <b>$25.54K</b>, with minor variations between insurance providers. <b>Medicare</b> leads with an average billing of <b>$25.63K</b>, while <b>UnitedHealthcare<b> follows closely at <b>$25.41K</b>, suggesting consistent pricing strategies across the board.<br/>
-
-Patients in the <b>30-39</b> age group contributed the highest total billing <b>($208.17M)</b>, followed by those aged <b>40-49</b> with <b>$204.83M</b>, indicating that middle-aged patients are a key demographic for healthcare spending. This also suggests that individuals in these age groups may be more prone to health issues, necessitating higher healthcare expenditures.<br/>
-
+The total billing amount reached <b>$1.40B</b> across all hospitals, with significant growth in 2020 before seeing a dip in 2024. However, the data only reflects the numbers up to May 2024, so there is potential for an increase by the end of the year. This downward trend highlights the dynamic nature of healthcare demands and the impact of external factors on revenue, possibly due to operational adjustments post-pandemic.<br>
+The average billing per patient is <b>$25.54K</b>, with minor variations between insurance providers. <b>Medicare</b> leads with an average billing of <b>$25.63K</b>, while <b>UnitedHealthcare</b> follows closely at <b>$25.41K</b>, suggesting consistent pricing strategies across the board.<br>
+Patients in the <b>30-39</b> age group contributed the highest total billing <b>($208.17M)</b>, followed by those aged <b>40-49</b> with <b>$204.83M</b>, indicating that middle-aged patients are a key demographic for healthcare spending. This also suggests that individuals in these age groups may be more prone to health issues, necessitating higher healthcare expenditures.<br>
 Admissions are evenly distributed among <b>Elective (33.70%), Urgent (33.42%)</b>, and <b>Emergency (32.88%)</b> cases, demonstrating that all patient care types are significant contributors to overall billing.
-
-<br/>
+<br>
+<br>
 
 <img width="608" alt="image" src="https://github.com/user-attachments/assets/faa14d26-4025-445e-84fb-68120d951c01" />
 
 <h3>Patient Insight Dashboard</h3>
-Low-risk patients contribute the most to total billing ($467M), while high-risk patients account for $158M. This indicates that routine monitoring and care for low-risk patients is a critical revenue stream, as they may require frequent checkups and follow-up appointments, even if their conditions are not life-threatening.<br/>
-
-The number of patient admissions peaked in 2020 at 3,818, followed by a gradual decline. The significant decrease in 2024 can be attributed to external factors like healthcare policies or global events. However, as the data only includes records up to May 2024, there is potential for admission rates to increase by the end of the year.<br/>
-
-The gender distribution is nearly balanced, with 50.02% male and 49.98% female patients, indicating equitable access to healthcare services across genders.<br/>
-
-Patients aged 50-59 years and 30-39 years have the highest admission rates, representing critical age groups for hospital resource planning and patient care management. These groups may require urgent care more frequently, highlighting the need for hospitals to prioritize resource availability for these patients.
-<br/>
+<b>Low-risk patients</b> contribute the most to total billing <b>($467M)</b>, while <b>high-risk patients</b> account for <b></b>$158M.</b> This indicates that routine monitoring and care for low-risk patients is a critical revenue stream, as they may require frequent checkups and follow-up appointments, even if their conditions are not life-threatening.<br>
+The number of patient admissions peaked in <b>2020 at 3,818</b>, followed by a gradual decline. The significant decrease in 2024 can be attributed to external factors like healthcare policies or global events. However, as the data only includes records up to May 2024, there is potential for admission rates to increase by the end of the year.<br>
+The gender distribution is nearly balanced, with <b></b>50.02% male</b> and <b>49.98% female</b> patients, indicating equitable access to healthcare services across genders.<br>
+Patients aged <b><50-59 years and 30-39 years</b> have the <b>highest admission rates</b>b>, representing critical age groups for hospital resource planning and patient care management. These groups may require urgent care more frequently, highlighting the need for hospitals to prioritize resource availability for these patients.
+<br>
 
 
 <img width="604" alt="image" src="https://github.com/user-attachments/assets/525896c9-d137-4589-9826-bc3a42a07932" />
 
 
 <h3>Hospital & Doctor Dashboard</h3>
-LLC Smith hospital leads in overall billing, contributing $423,591, along with the highest elective admissions. Ltd Smith hospital follows closely behind, showcasing their efficiency and revenue generation capabilities. Some refund amounts were also noted, indicating billing adjustments, possibly due to insurance claims or patient refunds. <br/>
-
-Michael Smith is the top-performing doctor, generating $201K in billings for high-risk patients. John Smith and Robert Smith significantly contribute with $275K and $186K, respectively. Interestingly, low-risk patients who require discharge and follow-up appointments contribute a substantial portion of the total billing. This suggests that even though these patients are at lower risk, maintaining contact and follow-up with their doctors generates a considerable revenue stream. <br/>
-
-The average length of stay varies between doctors, with Jessica Johnson having the shortest average stay of 19 days for elective cases, while William Johnson averages 26 days, highlighting differences in case complexity and doctor efficiency. Elective cases tend to have shorter average stays compared to emergency and urgent cases, which underscores the need for hospitals to adopt tailored resource management strategies based on admission type. <br/>
+<b>LLC Smith hospital</b> leads in overall billing, contributing <b>$423,591</b>, along with the highest elective admissions. Ltd Smith hospital follows closely behind, showcasing their efficiency and revenue generation capabilities. Some refund amounts were also noted, indicating billing adjustments, possibly due to insurance claims or patient refunds. <br>
+<b>Michael Smith</b> is the top-performing doctor, generating <b>$201K</b> in billings for high-risk patients. <b>John Smith</b> and Robert Smith significantly contribute with <b>$275K and $186K</b>, respectively. Interestingly, low-risk patients who require discharge and follow-up appointments contribute a substantial portion of the total billing. This suggests that even though these patients are at lower risk, maintaining contact and follow-up with their doctors generates a considerable revenue stream. <br>
+The average length of stay varies between doctors, with <b>Jessica Johnson</b> having the shortest average stay of <b>19 days</b> for elective cases, while <b>William Johnson</b> averages <b>26 days</b>, highlighting differences in case complexity and doctor efficiency. Elective cases tend to have shorter average stays compared to emergency and urgent cases, which underscores the need for hospitals to adopt tailored resource management strategies based on admission type. <br>
 
 
 <img width="610" alt="image" src="https://github.com/user-attachments/assets/edac2c7d-ea39-4631-9807-368f9219293b" />
@@ -78,10 +69,10 @@ The average length of stay varies between doctors, with Jessica Johnson having t
 
 
 <h4>Universal Blood Donors and Receivers:</h4>
-There are 6,804 universal blood donors (O-), which are crucial for emergency situations, as O- blood can be safely transfused to any patient. This makes it a vital resource for hospitals, especially during shortages or emergencies.
-6,882 patients are classified as universal receivers (AB+), which allows them to receive blood from any donor. This flexibility in transfusion provides hospitals with greater options for managing blood supply during critical times.
-The near-equal distribution of O- donors and AB+ receivers ensures a balanced potential for blood supply and demand, helping hospitals mitigate shortages and optimize blood bank strategies.
-A stored procedure, Blood_Matcher, was created to prioritize matching donors and receivers within the same hospital for faster and more efficient transfusions. For instance, Bobby Harvey, a 79-year-old AB+ patient, was successfully matched with multiple O- donors from different hospitals, ensuring a timely and compatible transfusion at Lester-Rogers hospital.
+There are <b>6,804 universal blood donors (O-)</b>, which are crucial for emergency situations, as O- blood can be safely transfused to any patient. This makes it a vital resource for hospitals, especially during shortages or emergencies.<br>
+<b>6,882 patients</b> are classified as universal receivers (AB+), which allows them to receive blood from any donor. This flexibility in transfusion provides hospitals with greater options for managing blood supply during critical times.<br>
+The near-equal distribution of <b>O- donors and AB+ receivers</b> ensures a balanced potential for blood supply and demand, helping hospitals mitigate shortages and optimize blood bank strategies.<br>
+A stored procedure, <b>Blood_Matcher</b>, was created to prioritize matching donors and receivers within the same hospital for faster and more efficient transfusions. For instance, Bobby Harvey, a 79-year-old AB+ patient, was successfully matched with multiple O- donors from different hospitals, ensuring a timely and compatible transfusion at Lester-Rogers hospital.
 
 <img width="416" alt="image" src="https://github.com/user-attachments/assets/9b25c28f-e068-4480-8cd3-959ca11e4cfe" />
 
